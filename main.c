@@ -32,7 +32,8 @@ EfiMain (
     IN EFI_SYSTEM_TABLE  *SystemTable
     )
 {
-    SystemTable->ConOut->OutputString(SystemTable->ConOut, L"Hello World!\n");
+    SystemTable->ConOut->OutputString(SystemTable->ConOut, L"UEFI hello world from zhangweilst\n");
     while(1);
     return EFI_SUCCESS;
 }
+
